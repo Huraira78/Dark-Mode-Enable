@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.homeSection
+{
+    background-image: linear-gradient(to bottom,rgb(149, 245, 240),rgb(81, 81, 211));
+    height: 100vh;
+    overflow-y: hidden;
+    color: blue;
+}
+section h1{
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 3rem;
+}
+section h3{
+    text-align: center;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 75%;
+}
+.card1 .img{
+    height: 45vh;
+    width: 50vh;
+}
+.card1 .img img{
+    height: 100%;
+    width: 100%;
+    border: 2px solid blue;
+}
+.carddes{
+    text-align: center;
+    padding-top: .5rem;
+}
+.homebtn button{
+    transition: all 0.5s ease-in;
+    padding: .5rem;
+    border:none;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 10vw;
+    border-radius: 10px;
+    font-weight: bold;
+    position: relative;
+    left: 45%;
+    right: 50%;
+}
+.homebtn{
+    padding: 1.5rem;
+}
+.homebtn button{
+    position: relative;
+    bottom: 1rem;
+}
+.homebtn button:hover{
+    box-shadow: 0px 0px 3px 3px blue;
+}
+#time{
+    font-size: 1.5rem;
+}

@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(38, 150, 255);
+
+    height: 10vh;
+}
+nav .logo{
+height: 8vh;
+width: 8vw;
+display:flex;
+justify-content: center;
+align-items: center;
+}
+nav .logo img{
+    height: 80%;
+    width: 70%;
+border-top-left-radius:20%;
+border-bottom-right-radius:20%;
+}
+nav .menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav .menu li{
+    margin: 1rem;
+    list-style: none;
+}
+nav .menu li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: blue;
+    font-weight:bold;
+}
